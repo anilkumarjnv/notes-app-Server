@@ -10,8 +10,8 @@
     "client-install": "cd client && npm install",
     "server-install": "npm install",
     "install-all":"concurrently \"npm run client-install\"\"npm run server-install\" ",
-    "dev": "concurrently \"npm reun client\" \"npm run server\" " 
-
+    "dev": "concurrently \"npm reun client\" \"npm run server\" " ,
+    "prod": "NODE_ENV=production nodemon server.js"
   },
   "keywords": [],
   "author": "",
